@@ -11,7 +11,7 @@ Welcome to test's documentation!
    :caption: Contents:
 
    image_quote_more
-
+   code_quote
 
 Indices and tables
 ==================

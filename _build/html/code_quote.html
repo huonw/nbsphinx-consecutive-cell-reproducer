@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Image separate cells &#8212; test 1.0.0 documentation</title>
+    <title>&lt;no title&gt; &#8212; test 1.0.0 documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -15,8 +15,7 @@
     <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="&lt;no title&gt;" href="code_quote.html" />
-    <link rel="prev" title="Welcome to test’s documentation!" href="index.html" />
+    <link rel="prev" title="Image separate cells" href="image_quote_more.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -253,31 +252,62 @@ div.rendered_html tbody tr:hover {
   background: rgba(66, 165, 245, 0.2);
 }
 </style>
-<div class="section" id="Image-separate-cells">
-<h1>Image separate cells<a class="headerlink" href="#Image-separate-cells" title="Permalink to this headline">¶</a></h1>
-<p><img alt="image0" src="https://jupyter.org/assets/hublogo.svg" /></p>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[1]:
+</pre></div>
 </div>
-<div class="section" id="HTML-separate-cells">
-<h1>HTML separate cells<a class="headerlink" href="#HTML-separate-cells" title="Permalink to this headline">¶</a></h1>
-<table><tr><td><p>Hello</p>
-</td></tr></table>
-
-
-
-
-
-
-starting with a quote (is formatted as raw HTML, e.g. *italic*, **bold**, ``code``, `link <https://jupyter.org>`__)</div>
-<div class="section" id="One-big-cell-(all-works)">
-<h1>One big cell (all works)<a class="headerlink" href="#One-big-cell-(all-works)" title="Permalink to this headline">¶</a></h1>
-<p><img alt="image0" src="https://jupyter.org/assets/hublogo.svg" /></p>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>print(&quot;some output&quot;)
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
 <blockquote>
-<div><p>starting with a quote</p>
+<div><div class="highlight"><pre>
+some output
+</pre></div></div></blockquote>
+<p>starting with a quote (is included as part of the output of the previous cell)</p>
+</div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[2]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>print(&quot;more output&quot;)
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+more output
+</pre></div></div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[4]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>from IPython import display
+display.display(display.Markdown(&quot;&gt; another quote&quot;))
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<blockquote>
+<div><p>another quote</p>
 </div></blockquote>
-<table><tr><td><p>Hello</p>
-</td></tr></table><blockquote>
-<div><p>starting with a quote</p>
-</div></blockquote>
+</div>
+</div>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
 </pre></div>
@@ -285,7 +315,6 @@ starting with a quote (is formatted as raw HTML, e.g. *italic*, **bold**, ``cod
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
 <span></span>
 </pre></div>
-</div>
 </div>
 </div>
 
@@ -307,18 +336,17 @@ starting with a quote (is formatted as raw HTML, e.g. *italic*, **bold**, ``cod
 
 <h3>Navigation</h3>
 <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Image separate cells</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#HTML-separate-cells">HTML separate cells</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#One-big-cell-(all-works)">One big cell (all works)</a></li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="image_quote_more.html">Image separate cells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="image_quote_more.html#HTML-separate-cells">HTML separate cells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="image_quote_more.html#One-big-cell-(all-works)">One big cell (all works)</a></li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="index.html" title="previous chapter">Welcome to test’s documentation!</a></li>
-      <li>Next: <a href="code_quote.html" title="next chapter">&lt;no title&gt;</a></li>
+      <li>Previous: <a href="image_quote_more.html" title="previous chapter">Image separate cells</a></li>
   </ul></li>
 </ul>
 </div>
@@ -352,7 +380,7 @@ starting with a quote (is formatted as raw HTML, e.g. *italic*, **bold**, ``cod
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="_sources/image_quote_more.ipynb.txt"
+      <a href="_sources/code_quote.ipynb.txt"
           rel="nofollow">Page source</a>
     </div>
 
