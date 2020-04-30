@@ -10,6 +10,7 @@ Welcome to test's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   image_quote_more
 
 
 Indices and tables
